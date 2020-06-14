@@ -1,0 +1,127 @@
+body{
+	margin: 0;
+	background-color: #FCF3CF;
+	overflow: auto;
+}
+
+.header{
+  background-color: #333;
+  color: white;
+}
+
+.navigation ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navigation ul li{
+	display: inline-block;
+}
+
+.navigation ul li a{
+	display: block;
+	padding: 0.5rem 1rem;
+	transition: all 0.4 linear;
+}
+
+.navigation ul li a:hover{
+	display: block;
+	background-color: gray;
+}
+
+.container-title{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.imglogo{
+	margin: 0;
+	padding: 0;
+}
+
+#add{
+	background-color: white;
+	border: solid;
+	border-radius: 2%;
+	width: 30%;
+	margin: 1%;
+}
+
+#datos{
+	background-color: gray;
+	border: solid;
+	border-radius: 20px;
+	margin: 1%;
+	overflow: auto;
+	height: 50%;
+	width: 50%;
+}
+
+.card{
+	background-color: white;
+	border: solid;
+	border-radius: 20px;
+	margin: 1%;
+}
+
+#funciones{
+	margin: 1%;
+}
+
+/*Button styles*/
+#agregar{
+	background-color: green;
+	border: solid;
+	margin: 1%;
+	color: white;
+	border-color: black;
+	width: 20%;
+	font-size: 20px;
+}
+
+#mod{
+	background-color: white;
+	border: solid;
+	border-radius: 2%;
+	width: 30%;
+}
+
+#btnBuscar{
+	background-color: green;
+	border: solid;
+	color: white;
+	border-color: black;
+	font-size: 20px;
+}
+
+#btnModifi{
+	background-color: sandybrown;
+	border: solid;
+	color: white;
+	border-color: black;
+	font-size: 20px;
+}
+
+#btnBorrar{
+	background-color: red;
+	border: solid;
+	color: white;
+	border-color: black;
+	font-size: 20px;
+}
+
+#buscar{
+	background-color: green;
+	border: solid;
+	color: white;
+	border-color: black;
+}
+
+#cancel{
+	background-color: red;
+	border: solid;
+	color: white;
+	border-color: black;
+}

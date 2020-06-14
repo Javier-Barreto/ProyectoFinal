@@ -1,0 +1,59 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="CSS/indexstyle.css">
+  <title>Control Libros</title>
+</head>
+<body onload="btnDatos()">
+  <header class="header">
+    <div class="container container-title">
+      <h2>
+        Control de libros
+      </h2>
+      <nav class="navigation">
+      </nav>
+    </div>
+  </header>
+
+  <div id="Mostrarinformacion">
+    <div id="datos">
+    </div>
+    <div id="add">
+      <h1>Agregar Manga</h1>
+      <label for="nombre">Nombre del manga: </label>
+      <input type="text" id="addnombre">
+      <br>
+
+      <label for="descripcion">Descripcion: </label>
+      <input type="text" id="adddesc">
+      <br>
+
+      <label for="autor">Autor: </label>
+      <input type="text" id="addautor">
+      <br>
+
+      <label for="cantidad">Cantidad: </label>
+      <input type="text" id="addcantidad">
+      <br>
+
+      <label for="precio">Precio: </label>
+      <input type="text" id="addprecio">
+      <br>
+
+      <label for="isbn">ISBN: </label>
+      <input type="text" id="addisbn">
+      <br>
+      <button id="agregar" onclick="btnAgregar2()">Añadir</button>
+    </div>
+
+    <div id="funciones">
+      <button id="btnBuscar" onclick="btnBuscar()">Buscar Manga</button>
+      <button id="btnModifi" onclick="btnBuscar2()">Modificar informacion de Manga almacenado</button>
+      <button id="btnBorrar" onclick="btnBuscar3()">Borrar Manga</button>
+    </div>
+  </div>
+  <script src="JS/Funciones.js"></script>
+  <script src="JS/App.js"></script>
+</body>
+</html>
